@@ -1,0 +1,81 @@
+form{
+  margin-left: 40%;
+  margin-top: 10%;
+  padding-top: 6%;
+  
+    /* background-color: #15172b; */
+    border-radius: 20px;
+    border: 1px solid #000;
+    box-sizing: border-box;
+   
+   
+ 
+}
+label{
+  font-size: 25px;
+  font-weight: 700;
+}
+.all{
+  margin-top: -10%;
+  /* background-color: rgb(227, 155, 100); */
+  background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/i/4995d8dc-d475-4038-96d3-5ab710e91f7f/d13hbqj-16f99d55-c9d8-4638-a33e-9b187f516f3e.jpg");
+  height: auto;
+}
+h1{
+  margin-left: 7%;
+  /* border-bottom:1px solid #000; */
+  /* font-si  ze:16px; */
+  text-decoration: underline;
+}
+
+  
+input[type=text] {
+  width: 35%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: block;
+ 
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  box-sizing: border-box;
+}
+
+button[type=submit] {
+  width: 20%;
+  background-color: #000000;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  font-size:20px;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+}
+input[type=password] {
+  width: 35%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: block;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  box-sizing: border-box;
+}
+
+button[type=submit]:hover {
+  color:black;
+
+  background-color: #ffffff;
+}
+
+.showDataStyle{
+  font-size: 30px;
+  display:flex;
+height:auto !important;
+color: white !important;
+  background-color: #000000;
+ 
+}
+.showDataStyle p{
+ margin-left: 40px;
+ padding-left: 70px;
+}
